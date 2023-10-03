@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(64, 63, 63);
+  color: whitesmoke;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+#Welcome {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+  font-size: 57px;
+  animation: fadeIn 2.5s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+nav ul {
+  display: inline-flex;
+}
+#myLogo {
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+}
+h2 {
+  color: rgb(79, 136, 215);
+}
+header {
+  background-color: rgb(95, 97, 98);
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  float: right;
+  color: aliceblue;
+}
+nav a:link {
+  border-color: rgb(79, 136, 215);
+}
+nav a:visited {
+  border-color: rgb(79, 136, 215);
+}
+nav a:hover {
+  color: brown;
+  background-color: rgb(237, 246, 205);
+}
+hr {
+  border-width: 1px;
+}
+#myPic {
+  height: 500px;
+  width: 350px;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item {
+  padding-right: 20px;
+}
+
+.left {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.right {
+  flex: 2;
+  justify-content: flex-end;
+}
+.myProjects {
+  float: right;
+}
+img {
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+}
+fieldset {
+  text-align: left;
+  align-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+input,
+label {
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 30px;
+}
+#sendButton {
+  margin-left: 30px;
+}
+input {
+  margin-left: 10px;
+}
